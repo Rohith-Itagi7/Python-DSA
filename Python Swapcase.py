@@ -25,3 +25,10 @@ print('Changed String:', new_str)
 greeting="hey how are you @1235#$%"
 case_3=greeting.swapcase()
 print(case_3)
+
+usernames = ['rahul_sharma', 'riya_soni', 'PETER_PARKER', 'rohit_sharma']
+
+formatted_usernames = [username.capitalize() for username in usernames]
+
+for username in formatted_usernames:
+    print(username)

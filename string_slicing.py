@@ -22,3 +22,12 @@ print(list_2)
 
 list_3=list[1::]
 print(list_3)
+
+# Slicing tuples
+my_tuple = (11, 12, 13, 14, 15)
+
+subset_tuple = my_tuple[1:3]
+print(subset_tuple)  
+
+subset_tuple_2 = my_tuple[0:4:2]
+print(subset_tuple_2)  
