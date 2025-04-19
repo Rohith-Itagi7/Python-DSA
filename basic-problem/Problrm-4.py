@@ -15,3 +15,17 @@ else:
         print(0)   
     else:
         print(-1)  
+
+
+
+ch = input("Enter a character: ")
+
+if len(ch) != 1:
+    print("Please enter only one character.")
+else:
+    if ch.isupper():
+        print(1)   
+    elif ch.islower():
+        print(0)  
+    else:
+        print(-1)  
