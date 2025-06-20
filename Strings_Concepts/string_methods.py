@@ -15,4 +15,18 @@ print(message.swapcase())#Which converts lowercase letter into uppercase and vic
 
 print(message.center(20,"-")) #the word "hello" is centered within a 20-character wide space
 
-print(message.count("l"))
+print(message.count("l")) #Count() which helps to the count of occurence
+
+s = "GEEKSFORGEEKS"
+print(s.isupper())
+
+s1 = "HelloWorld"
+res1 = s1.isalpha()
+print(res1)
+
+
+a = "shakshi" # name 
+b = 22 # age
+
+msg = "My name is {0} and I am {1} years old.".format(a,b)
+print(msg)
