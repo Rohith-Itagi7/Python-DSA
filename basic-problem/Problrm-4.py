@@ -1,0 +1,31 @@
+# Write a program that takes a character as input and prints 1, 0, or -1 according to the following rules.
+
+# 1, if the character is an uppercase alphabet (A - Z).
+# 0, if the character is a lowercase alphabet (a - z).
+# -1, if the character is not an alphabet.
+
+ch = input()
+
+if len(ch) != 1:
+    print("Please enter only one character.")
+else:
+    if 'A' <= ch <= 'Z':
+        print(1)   
+    elif 'a' <= ch <= 'z':
+        print(0)   
+    else:
+        print(-1)  
+
+
+
+ch = input("Enter a character: ")
+
+if len(ch) != 1:
+    print("Please enter only one character.")
+else:
+    if ch.isupper():
+        print(1)   
+    elif ch.islower():
+        print(0)  
+    else:
+        print(-1)  
