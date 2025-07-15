@@ -1,3 +1,4 @@
+#Looping dictionary using for loop 
 thisdict =	{
   "brand": "Ford",
   "model": "Mustang",
