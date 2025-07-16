@@ -13,7 +13,7 @@ for x in fruits:
   print(x)
   if x == "banana":
     break
-
+#Loop break if x==banana
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   if x == "banana":
