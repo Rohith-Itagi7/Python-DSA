@@ -17,9 +17,11 @@ print(message.center(20,"-")) #the word "hello" is centered within a 20-characte
 
 print(message.count("l")) #Count() which helps to the count of occurence
 
+#checks wheather the string is uppercase 
 s = "GEEKSFORGEEKS"
 print(s.isupper())
 
+#Checks wheather the string is all  alphabet 
 s1 = "HelloWorld"
 res1 = s1.isalpha()
 print(res1)
