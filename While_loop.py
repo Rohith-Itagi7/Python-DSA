@@ -1,3 +1,4 @@
+#increment using while loop
 count=0
 while count<5:
     count+=1
