@@ -1,8 +1,8 @@
-def something():
+def something():# 
     print("Hello")
     print("Hey how are you?")
 
-something()
+something()#Calling function 
 
 def my_function(fname):
   print(fname + " Refsnes")
@@ -29,7 +29,7 @@ def my_function(name,birth):
     print(f"hello {name}")
     print(f"your have born on {birth}")
 
-my_function(birth=1989,name="Rohith")
+my_function(birth=1989,name="Rohith")# It assign to specific parameter 
 
 # Arbitrary Arguments, *args
 # If you do not know how many arguments that will be passed into your function, add a * before the parameter name in the function definition.
