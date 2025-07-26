@@ -1,3 +1,10 @@
+"""variable naming"""
+#Camel case
+myVariableName=123
+#Pascal case
+MyVariableName=123
+#Snake case
+my_variable_name=123
 list0=["Rohith","Four","Three"]
 list1=[1,2,3,4,5,6]
 list3=[True,False,True,False]
