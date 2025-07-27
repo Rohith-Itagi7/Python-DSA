@@ -28,7 +28,7 @@ print(case_3)
 
 usernames = ['rahul_sharma', 'riya_soni', 'PETER_PARKER', 'rohit_sharma']
 
-formatted_usernames = [username.capitalize() for username in usernames]
+formatted_usernames = [username.capitalize() for username in usernames]#it capitalize frist letter of every username 
 
 for username in formatted_usernames:
     print(username)
