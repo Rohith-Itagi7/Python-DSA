@@ -37,6 +37,7 @@ print(newlist)
 newlist = [x for x in range(10) if x<5]
 print(newlist)
 
+#It uppercase every item in the list 
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 new_list=[x.upper() for x in fruits]
 print(new_list)
