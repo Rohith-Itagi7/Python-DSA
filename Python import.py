@@ -11,3 +11,5 @@ import math
 num=5
 num=math.sqrt(num)
 print(num)
+
+from pictures import logo
