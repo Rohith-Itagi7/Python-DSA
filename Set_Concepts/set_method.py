@@ -21,12 +21,12 @@ z = x.issubset(y)
 
 print(z)
 
-
+#removes an item from a list 
 fruits = {"apple", "banana", "cherry"}
 fruits.remove("banana")
 print(fruits)
 
-
+#delets the last item in the list 
 fruits = {"apple", "banana", "cherry"}
 fruits.pop()
 

@@ -1,11 +1,11 @@
 #Using Swapcase()
 lower_case="hey how are you"
-case_1=lower_case.swapcase()
+case_1=lower_case.swapcase()#it changes into upper case 
 print(case_1)
 
 Upper_case="HEY HOW ARE YOU"
 case_2=Upper_case.swapcase()
-print(case_2)
+print(case_2)#it changes the string into lower case 
 
 str="HEy HoW ArE yOu"
 
@@ -28,7 +28,7 @@ print(case_3)
 
 usernames = ['rahul_sharma', 'riya_soni', 'PETER_PARKER', 'rohit_sharma']
 
-formatted_usernames = [username.capitalize() for username in usernames]
+formatted_usernames = [username.capitalize() for username in usernames]#it capitalize frist letter of every username 
 
 for username in formatted_usernames:
     print(username)
