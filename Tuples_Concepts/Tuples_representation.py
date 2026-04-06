@@ -1,12 +1,17 @@
-# Tuples are ordered list unchangeable and no duplicates value
-thistuple = ("apple", "banana", "cherry")
-print(thistuple)
+tuple=("Rohan","Aliya","Karthik araan","Virat","David")
+print(tuple)
 
-cities=("Dvg","Hrr","Rnr","Bnglr","Rnr")#Tuples containing duplicate value
-print(cities)
+#Tuples containing different data types
+Multiple_data_types=("1", 5 ,True,False)
+print(Multiple_data_types)
 
-cities=("Dvg","Hrr","Rnr","Bnglr","Rnr")# how many Tuples using len() function
-print(len(cities))
+Dishes=("Benne Dose", "Idle", "Palav", "Vadapav", "Cheese balls","Palav") #Tuple containg duplicate values
+print(len(Dishes) #len function is used to  know number of tuple elementd
+print(Dishes[1])
+print(Dishes[2:])
+#Acessing using negative index
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[-4:-1])
 
 #Representing a one tuple(,) is main then only it can be tuple
 name=("Rohith",)     
@@ -15,28 +20,6 @@ print(type(name))
 #Not a tuple 
 name=("Rohith")     
 print(type(name))
-
-#Tuple contaning multiple values
-tuple1 = ("apple", "banana", "cherry")
-tuple2 = (1, 5, 7, 9, 3)
-tuple3 = (True, False, False)
-
-#Tuples containing different data types
-greeting=(1,False,"Rohith",True)
-print(greeting)
-
-cities=("Dvg","Hrr","Rnr","Bnglr","Rnr")
-print(cities[1])
-
-cities=("Dvg","Hrr","Rnr","Bnglr","Rnr")
-print(cities[2:])
-
-#Accesing using negative index
-cities=("Dvg","Hrr","Rnr","Bnglr","Rnr")
-print(cities[-1])
-
-thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
-print(thistuple[-4:-1])
 
 # To check wheather the item is present or not
 cities=("Dvg","Hrr","Rnr","Bnglr","Rnr")
