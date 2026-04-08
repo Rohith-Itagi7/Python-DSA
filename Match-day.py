@@ -1,3 +1,4 @@
+#match is same like a switch case in c
 day = 5
 match day:
     case 1:
@@ -25,7 +26,7 @@ match day:
     case 7:
             print("Sunday")
     case _:
-            print("Hey it's Tuesday")
+            print("Hey it's Tuesday") #Here it prints this one
 
 #Combining values using union operator
 day = 4
@@ -36,6 +37,7 @@ match day:
     print("I love weekends!")
 
 
+#Here it combines the value if the condition met the parameters
 month = 5
 day = 4
 match day:
