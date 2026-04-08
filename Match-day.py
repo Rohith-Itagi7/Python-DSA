@@ -1,4 +1,4 @@
-day = 4
+day = 5
 match day:
     case 1:
             print("Monday")
