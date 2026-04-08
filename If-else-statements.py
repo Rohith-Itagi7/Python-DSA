@@ -1,7 +1,7 @@
 x=50
 y=60
 if x<y:
-    print("x is less than y")
+    print("x is less
 
 # if-else
 x=70
