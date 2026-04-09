@@ -1,4 +1,4 @@
-#match is same like a switch case in c
+# Instead of writing many if..else statements, you can use the match statement
 day = 5
 match day:
     case 1:
