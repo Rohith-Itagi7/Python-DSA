@@ -7,12 +7,6 @@ for x in fruits:
 for x in "banana":
   print(x)
 
-# The break Statement
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  print(x)
-  if x == "banana":
-    break
 
 #Continue  statement
 fruits = ["apple", "banana", "cherry"]
