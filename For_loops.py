@@ -4,12 +4,7 @@ for x in fruits:
   print(x)
 
 
-#Continue  statement
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  if x == "banana":
-    continue
-  print(x)
+
 
 #Range function
 for i in range(1,101):
