@@ -6,13 +6,7 @@ for x in fruits:
 
 
 
-#Range function
-for i in range(1,101):
-  print(i)
 
-# Nested for loop
-adj = ["red", "big", "tasty"]
-fruits = ["apple", "banana", "cherry"]
 
 for x in adj:
   for y in fruits:
