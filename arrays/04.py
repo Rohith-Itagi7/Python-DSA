@@ -6,3 +6,8 @@ ans=n*[_] # frist I did this but it should not be done it is invalid use this  a
 for i in range(n):
       ans[i]=arr[i]
 print(ans)
+
+duplicate = []
+
+for element in arr:
+    duplicate.append(element)
