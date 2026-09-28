@@ -1,8 +1,0 @@
-# Sum of Array Elements
-
-class Solution:
-    def sum(self,arr, n):
-        total=0
-        for num in arr:
-            total+=num
-        return total
